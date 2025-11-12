@@ -28,17 +28,17 @@ app.get("/health", (req: Request, res: Response) => {
 });
 
 app.post("/api/auth/register", async (req: Request, res: Response) => {
-  // TODO: Validate input, hash password, and store user
+  // TODO: Register user
   res.status(501).json({ error: "Not implemented" });
 });
 
 app.post("/api/auth/login", async (req: Request, res: Response) => {
-  // TODO: Verify credentials and issue JWT
+  // TODO: Issue JWT
   res.status(501).json({ error: "Not implemented" });
 });
 
 app.get("/api/auth/verify", async (req: Request, res: Response) => {
-  // TODO: Parse Authorization header, call `verifyToken`, and return decoded payload
+  // TODO: return a decoded JWT payload
   res.status(501).json({ error: "Not implemented" });
 });
 
